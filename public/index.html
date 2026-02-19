@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Greeting App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app-root">
+      <div class="card">
+        <h1 class="title">Modern Greeting</h1>
+        <label for="name-input" class="label">Enter Your Name</label>
+        <input
+          id="name-input"
+          class="text-input"
+          type="text"
+          placeholder="Type your name here"
+        />
+        <button id="greet-button" class="primary-button">Greet</button>
+        <div id="greeting-output" class="greeting-output" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <div id="animation-layer" class="animation-layer"></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
